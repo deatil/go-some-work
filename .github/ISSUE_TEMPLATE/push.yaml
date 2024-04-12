@@ -1,6 +1,5 @@
 name: 项目推荐
 description: 推荐项目给我们
-title: ""
 labels: [lib]
 assignees:
   - deatil
@@ -10,7 +9,6 @@ body:
     attributes:
       label: 项目名称
       description: 请输入你推荐的项目名称
-      placeholder: 
     validations:
       required: true
   - type: input
@@ -18,7 +16,6 @@ body:
     attributes:
       label: 项目地址
       description: 请输入你推荐的项目地址
-      placeholder: 
     validations:
       required: true
   - type: textarea
