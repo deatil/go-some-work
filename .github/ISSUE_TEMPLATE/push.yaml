@@ -9,7 +9,7 @@ body:
     id: name
     attributes:
       label: 项目名称
-      description: 请输入你推荐的项目名称, 例如: deatil/go-hash
+      description: 请输入你推荐的项目名称
       placeholder: 项目名称
     validations:
       required: true
