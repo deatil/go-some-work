@@ -1,6 +1,6 @@
 name: 项目推荐
 description: 推荐项目给我们
-title: "[Pkg]: "
+title: ""
 labels: [pkg]
 assignees:
   - deatil
@@ -9,16 +9,16 @@ body:
     id: name
     attributes:
       label: 项目名称
-      description: 请输入你推荐的项目名称
-      placeholder: deatil/go-hash
+      description: 请输入你推荐的项目名称, 例如: deatil/go-hash
+      placeholder: 项目名称
     validations:
       required: true
   - type: input
     id: url
     attributes:
       label: 项目地址
-      description: 请输入你推荐的项目地址
-      placeholder: https://github.com/deatil/go-hash
+      description: 请输入你推荐的项目地址, 例如: https://github.com/deatil/go-hash
+      placeholder: 项目地址
     validations:
       required: true
   - type: textarea
