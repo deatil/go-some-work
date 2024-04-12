@@ -1,4 +1,8 @@
-name: Tests
+name: PKG Push
+
+on:
+  issue:
+    types: [ labeled, unlabeled ]
 
 jobs:
   push:
@@ -16,3 +20,14 @@ jobs:
           labels: 'pkg'
           state: 'all'
 
+      - name: add-and-commit
+        uses: EndBug/add-and-commit@v4
+        with:
+          message: README.md has been re-written
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
