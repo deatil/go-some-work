@@ -1,7 +1,7 @@
 name: 项目推荐
 description: 推荐项目给我们
-title: "[PKG]"
-labels: []
+title: ""
+labels: [lib]
 assignees:
   - deatil
 body:
@@ -10,15 +10,15 @@ body:
     attributes:
       label: 项目名称
       description: 请输入你推荐的项目名称
-      placeholder: 项目名称
+      placeholder: 
     validations:
       required: true
   - type: input
     id: url
     attributes:
       label: 项目地址
-      description: 请输入你推荐的项目地址, 例如: https://github.com/deatil/go-hash
-      placeholder: 项目地址
+      description: 请输入你推荐的项目地址
+      placeholder: 
     validations:
       required: true
   - type: textarea
