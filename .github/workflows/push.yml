@@ -1,8 +1,8 @@
 name: PKG Push
 
 on:
-  issue:
-    types: [ labeled, unlabeled ]
+  issues:
+    types: [labeled, unlabeled]
 
 jobs:
   push:
