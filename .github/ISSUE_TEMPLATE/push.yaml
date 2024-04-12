@@ -1,7 +1,7 @@
 name: 项目推荐
 description: 推荐项目给我们
-title: ""
-labels: [pkg]
+title: "[PKG]"
+labels: []
 assignees:
   - deatil
 body:
