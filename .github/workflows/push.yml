@@ -5,7 +5,7 @@ on:
     types: [labeled, unlabeled]
 
 jobs:
-  push:
+  test:
     runs-on: ubuntu-latest
 
     steps:
