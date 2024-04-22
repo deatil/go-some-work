@@ -23,7 +23,7 @@ jobs:
           pattern: '<!-- issueTable -->'
           labels: 'pkg'
           state: 'all'
-          sort: 'created'
+          sort: 'created-asc'
 
       - name: add-and-commit
         uses: EndBug/add-and-commit@v4
