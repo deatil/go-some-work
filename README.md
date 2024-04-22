@@ -8,6 +8,8 @@
 
 <!-- issueTable -->
 
+1. [go 常用摘要算法库](https://github.com/deatil/go-some-work/issues/2) 
+2. [go 常用加密解密库/go encrypt or decrypt pkg](https://github.com/deatil/go-some-work/issues/1) 
 <!-- issueTable -->
 
 
