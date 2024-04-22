@@ -8,8 +8,9 @@
 
 <!-- issueTable -->
 
-1. [go 常用摘要算法库](https://github.com/deatil/go-some-work/issues/2) 
-2. [go 常用加密解密库/go encrypt or decrypt pkg](https://github.com/deatil/go-some-work/issues/1) 
+1. [go-datebin go 简单易用的时间解析库](https://github.com/deatil/go-some-work/issues/3) 
+2. [go 常用摘要算法库](https://github.com/deatil/go-some-work/issues/2) 
+3. [go 常用加密解密库/go encrypt or decrypt pkg](https://github.com/deatil/go-some-work/issues/1) 
 <!-- issueTable -->
 
 
